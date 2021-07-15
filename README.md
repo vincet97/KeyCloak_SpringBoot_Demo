@@ -6,3 +6,5 @@ A Keycloak felületen található realm-ban egy user-t elláttam egy role-al ami
 ## Spring Boot demo 
 A Spring Boot alkalmazás egy példa, egy get és egy post van implementálva és ezeken lehet tesztelni a role-based autentikációt. 
 Az autentikált API híváshoz szükséges egy Token-t generáltatni a megfelelő token api endpoint-on a Keycloak-al. Szükséges a Keycloak client, user és jelszó a token generálásához illetve az endpoint.
+## Postman
+Postman alkalmazással API hívásokat lehet intézni, először a Token endpoint-ot kell elérni a megfelelő token megszerzéséhez, ezt a Keycloak felületen lehet megszerezni. Az API hívásoknál ezt a tokent kell hassználni. 
