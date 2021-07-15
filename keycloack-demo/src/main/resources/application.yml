@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+keycloak:
+
+  auth-server-url: http://10.1.100.232:8081/auth
+  realm: DemoRealm
+  resource: democlient
+  public-client: true
+  bearer-only: true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
